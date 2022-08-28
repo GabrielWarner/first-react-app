@@ -1,6 +1,8 @@
-import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import React from 'react';
+import Form from './components/Form/index';
 
-const App = () => <PortfolioContainer />;
+function App() {
+  return <Form />;
+}
 
 export default App;
